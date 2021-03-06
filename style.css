@@ -1,3 +1,8 @@
+blockquote p {
+    font-size: 18px;
+    font-style: italic;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -303,6 +308,7 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
+    height: 40px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -332,6 +338,9 @@ a:hover {
     text-align: inherit;
 }
 
+.nav > li.active a {
+    color: #F3976C !important;
+}
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
@@ -577,6 +586,7 @@ a[data-lightbox]:hover img {
 }
 
 .lightbox-caption {
+    text-align: center;
     padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
@@ -677,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -710,7 +720,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -822,7 +832,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
