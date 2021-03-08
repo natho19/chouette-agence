@@ -1,6 +1,57 @@
+address {
+    font-size: 16px;
+}
+
+.contact h1 {
+    color: #FFCC84 !important;
+}
+
+.contact p {
+    color: #FFFFFF !important;
+}
+
+body .scrollToTop {
+    color: #FFF !important;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+footer ul li a {
+    color: #424242 !important;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer, footer h2, footer h3 {
+    color: #303030!important;
+}
+
+a .icon-md {
+    color: #424242 !important;
+    font-size: 40px !important;
+}
+
+a .icon-md:hover {
+    color: #000000 !important;
+}
+
+.pr {
+    position: relative;
+}
+
 blockquote p {
     font-size: 18px;
     font-style: italic;
+}
+
+blockquote + figcaption {
+    font-size: 15px;
 }
 
 body {
@@ -98,7 +149,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(54, 69, 119, 0.4);
 }
 
 .b-parallax {
@@ -539,6 +590,10 @@ button {
     transition: all .3s ease-in-out;
 }
 
+.showScrollTop a {
+    color: #FFFFFF!important;
+}
+
 .scrollToTop span {
     margin-top: 6px;
 }
@@ -729,7 +784,7 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -774,7 +829,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -793,32 +848,34 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+    color: #000000!important;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFCC84!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #FFCC84;
+    color: #303030!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #303030!important;
+    color: #FFCC84!important;
 }
 
 .ltc-white {
+    font-size: 16px;
     color: #FFFFFF!important;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: rgba(255, 255, 255, .85)!important;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #FFCC84!important;
 }
 
 .ltc-atomic-tangerine:hover {
