@@ -98,6 +98,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .b-parallax {
@@ -444,6 +445,14 @@ nav .caret {
     float: right;
 }
 
+.my-sm {
+    margin: 15px 0;
+}
+
+.mb-md {
+    margin-bottom: 40px;
+}
+
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -751,6 +760,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-row {
@@ -1048,5 +1059,11 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+@media (min-width: 767px) {
+    .mb-md {
+        margin-bottom: 0;
     }
 }
